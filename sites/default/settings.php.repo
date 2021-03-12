@@ -780,13 +780,13 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'zz-drupal-10',
-  'username' => 'root',
-  'password' => '@Winter2021!',
-  'prefix' => 'drup_',
+  'database' => 'database',
+  'username' => 'username',
+  'password' => 'password',
+  'prefix' => 'prefix',
   'host' => 'localhost',
   'port' => '3306',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_iTrR_jT882j7EGNTsPwNv21yMD7TKG6eUXSPYARFJqmhKOxLHLtG1OGgeS3xbgdd26yv-D9FfA/sync';
+#$settings['config_sync_directory'] = 'sites/default/files/config_iTrR_jT882j7EGNTsPwNv21yMD7TKG6eUXSPYARFJqmhKOxLHLtG1OGgeS3xbgdd26yv-D9FfA/sync';
